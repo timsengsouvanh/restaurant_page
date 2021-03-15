@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#content {
+    padding: 5px;
+    margin: 0px 10px 0px 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: aqua;
+    font-size: 4rem;
+}
+
+#nav-bar {
+    display: flex;
+    height: 80px;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 34%;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+}
