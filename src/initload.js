@@ -36,5 +36,10 @@ function createNavBar(id) {
 
 
 function loadPage() {
-
+    const content = document.getElementById('content')
+    
+    const header = createHeader('header')
+    content.appendChild(header)
 }
+
+export default loadPage;
