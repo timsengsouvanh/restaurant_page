@@ -35,11 +35,19 @@ function createNavBar(id) {
 
 
 
+
+
 function loadPage() {
     const content = document.getElementById('content')
     
     const header = createHeader('header')
     content.appendChild(header)
+
+    const restName = createRestName('rest-name', 'Kiosk')
+    header.appendChild(restName)
+
+    const navBar = createNavBar('nav-bar')
+    header.appendChild(navBar)
 }
 
 export default loadPage;
