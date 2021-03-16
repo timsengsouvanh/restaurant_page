@@ -14,9 +14,9 @@ addEvents()
 initialize()
 
 function addEvents(){
-    const home = document.getElementById('home')
-    const menu = document.getElementById('menu')
-    const contact = document.getElementById('contact')   
+    const home = document.getElementById('homebtn')
+    const menu = document.getElementById('menubtn')
+    const contact = document.getElementById('contactbtn')   
     
     home.addEventListener('click', loadHome)
     menu.addEventListener('click', loadMenu)

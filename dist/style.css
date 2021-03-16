@@ -24,6 +24,11 @@ header {
 
 #rest-name {
     font-family: Monoton;
+    color: rgb(3, 192, 192);
+}
+
+#mainarea {
+    width: 600px;
 }
 
 #nav-bar {
@@ -40,7 +45,8 @@ button {
     margin: 0;
     text-decoration: none;
 }
-#about {
-    padding-top: 20px;
+
+#about, #contact, #menu-area {
+    padding-top: 30px;
     text-align: center;
 }

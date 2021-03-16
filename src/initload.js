@@ -22,9 +22,9 @@ function createNavBar(id) {
     const navBar = document.createElement('div');
     navBar.setAttribute('id', id)
 
-    const homeBtn = createButton('home', 'Home')
-    const menuBtn = createButton('menu', 'Menu')
-    const contactBtn = createButton('contact', 'Contact')
+    const homeBtn = createButton('homebtn', 'Home')
+    const menuBtn = createButton('menubtn', 'Menu')
+    const contactBtn = createButton('contactbtn', 'Contact')
     
     navBar.appendChild(homeBtn)
     navBar.appendChild(menuBtn)
