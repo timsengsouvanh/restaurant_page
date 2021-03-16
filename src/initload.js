@@ -47,7 +47,7 @@ function loadPage() {
     const header = createHeader('header')
     content.appendChild(header)
 
-    const restName = createRestName('rest-name', 'Kiosk')
+    const restName = createRestName('rest-name', 'KIOSK')
     header.appendChild(restName)
 
     const navBar = createNavBar('nav-bar')
