@@ -19,7 +19,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     height: 200px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #rest-name {
@@ -53,23 +53,27 @@ header {
 
 #mainarea {
     width: 600px;
+    padding-top: 20px;
 }
 
 #nav-bar {
     display: flex;
     height: 50px;
-    width: 500px;
+    width: 600px;
     justify-content: space-evenly;
 }
 
 button {
-    width: 34%;
+    width: 20%;
     border: none;
     padding: 1rem 2rem;
     margin: 0;
     text-decoration: none;
     outline: none;
     cursor: pointer;
+    background: none;
+    font-family: 'Cedarville Cursive';
+    font-size: 2rem;
 }
 
 #about, #contact, #menu-area {
