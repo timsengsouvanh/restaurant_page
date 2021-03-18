@@ -42,22 +42,22 @@ function loadMenu(){
     menu.appendChild(fish)
 
     const flake = createMenuItem('menuitem', 'flake', '6')
-    menu.appendChild(flake)
+    fish.appendChild(flake)
 
     const barramundi = createMenuItem('menuitem', 'barramundi', '10')
-    menu.appendChild(barramundi)
+    fish.appendChild(barramundi)
 
     const kingwhiting = createMenuItem('menuitem', 'king whiting', '12')
-    menu.appendChild(kingwhiting)
+    fish.appendChild(kingwhiting)
 
     const chips = createMenuCategory('menu-category', 'Chips')
     menu.appendChild(chips)
 
     const minimumChips = createMenuItem('menuitem', 'minimum chips', '3')
-    menu.appendChild(minimumChips)
+    chips.appendChild(minimumChips)
 
     const potatoCake = createMenuItem('menuitem', 'potato cake', '1')
-    menu.appendChild(potatoCake)
+    chips.appendChild(potatoCake)
 }
 
 export default loadMenu;
