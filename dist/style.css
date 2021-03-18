@@ -25,7 +25,7 @@ header {
 #rest-name {
     font-family: "Monoton";
     font-weight: lighter;
-    font-size: 3rem;
+    font-size: 4rem;
     color: rgb(252, 247, 252);
     animation: neon .08s ease-in-out infinite alternate;
     padding-bottom: 20px;
@@ -82,7 +82,7 @@ button:hover {
 }
 
 #about, #contact, #menu-area {
-    padding-top: 30px;
+    padding-top: 40px;
     text-align: center;
 }
 
