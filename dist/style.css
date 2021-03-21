@@ -95,6 +95,10 @@ button:hover {
     font-size: 1.5rem;
 }
 
+img {
+    max-width: 40%;
+}
+
 #about {
     font-family: 'Cedarville Cursive';
     font-size: 1.5rem;

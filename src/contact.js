@@ -29,6 +29,14 @@ function createAddress(id, l1, l2, l3){
     return addressArea
 }
 
+function createImg (id){
+    const img = document.createElement('img')
+    img.setAttribute('id', id)
+    img.src = "https://live.staticflickr.com/5082/5282271180_36c92c3395.jpg"
+
+    return img
+}
+
 
 function loadContact() {
     const main = document.getElementById('mainarea')
@@ -42,6 +50,9 @@ function loadContact() {
 
     const tel = createTelNumber('tel-number', 'tel: 98931399')
     address.appendChild(tel)
+
+    const img = createImg('img')
+    contact.appendChild(img)
 }
 
 export default loadContact;
